@@ -485,3 +485,110 @@ h1,h2,h3,h4,h5,h6,ul,p,li{
 	transform: translateX(52vw);
 	transition: 1s;
 }
+
+/* 	CONTACT */
+
+.contact{
+	background: #f5f5f5;
+}
+
+.contact_title{
+	color: #0f0a0a;
+	font-size: 48px;
+	font-weight: 600;
+}
+
+.contact_form{
+	width: 100%;
+	margin: 0 auto;
+}
+
+.contact_input{
+	background: #16d55e;
+	padding: 20px;
+	width: 100%;
+	margin-top: 30px;
+	outline: none;
+	border: 0;
+}
+
+.contact_input::placeholder{
+	color: #fff;
+	font-family: "Poppins";
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.contact_input::value{
+	color: #fff;
+	font-family: "Poppins";
+	font-size: 18px;
+	font-weight: 600;
+}
+
+.contact_input:focus{
+	color: #0f0a0a;
+	background: #fff;
+	transition: 0.2s;
+	font-weight: 300;
+	font-size: 18px;
+	font-family: "Poppins";
+}
+
+.social_block{
+	width: 20vw;
+}
+
+.social_icon_block{
+	width: 12vw;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 30px;
+}
+
+.social_item{
+	content: '';
+	display: block;
+	width: 60px;
+	height: 60px;
+	border-radius: 50%;
+	background: #16d55e;
+	display: block;
+}
+
+.social_icon{
+	color: #fff;
+	font-size: 30px;
+	margin-top: 15px;
+}
+
+.social_item:hover{
+	background: #fff;
+	transition: 0.2s;
+}
+
+.social_item:hover .social_icon{
+	color: #16d55e;
+}
+
+.contact_list{
+	padding-left: 20px;
+	margin-top: 40px;
+}
+
+.contact_list li{
+	list-style-type: none;
+}
+
+.contact_list li:before{
+	content: "\2022";
+  	color: #16d55e;
+  	font-weight: bold;
+  	display: inline-block; 
+  	width: 1em;
+  	margin-left: -1em;
+}
+
+.contact_list .contact_item{
+	font-size: 24px;
+}
